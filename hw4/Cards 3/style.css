@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.container {
+    height: 100vh;
+}
+
+.boxes {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.upper-boxes {
+    display: flex;
+    height: 100px;
+    gap: 5px;
+}
+
+.logo-box {
+    width: 25%;
+    height: 100%;
+}
+
+.header-box {
+    width: 75%;
+    height: 100%;
+}
+
+.nav-hidden {
+    display: none;
+}
+
+.middle-boxes {
+    height: 500px;
+    display: flex;
+    gap: 5px;
+}
+
+.left-boxes {
+    width: 125px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nav-box {
+    height: 300px;
+}
+
+.store-box, .tools-box {
+    height: 100px;
+    display: flex;
+}
+
+
+.right-boxes {
+    width: 75%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.right-upper {
+    height: 25%;
+    display: flex;
+    gap: 5px;
+}
+
+.bath-box {
+    width: 75%;
+    height: 100%;
+}
+
+.ad-box {
+    width: 25%;
+    height: 100%;
+}
+
+.right-lower {
+    height: 75%;
+    display: flex;
+    gap: 5px;
+}
+
+.types-box {
+    width: 75%;
+    height: 100%;
+}
+
+.related-box {
+    width: 25%;
+    height: 100%;
+}
+
+.footer-box {
+    height: 100px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    background-color: gray;
+}
+
+.hidden-89 {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        height: auto;
+        margin: 20px;
+    }
+
+    .boxes {
+        max-width: 400px;
+    }
+
+    .left-boxes {
+        display: none;
+    }
+
+    .store-box, .tools-box {
+        width: 50%;
+    }
+
+    .right-boxes {
+        width: 100%;
+    }
+
+    .right-upper {
+        width: 100%;
+    }
+
+    .right-lower {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .types-box {
+        width: 100%;
+        height: 600px;
+    }
+
+    .related-box {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .nav-hidden {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        height: 150px;
+
+    }
+
+    .hidden-89 {
+        display: flex;
+        gap: 5px;
+    }
+}

@@ -1,0 +1,80 @@
+body {
+    background-color: #fec356;
+    font-size: 18px;
+    font-family: Arial;
+    text-align: center;
+}
+h1,h2, h3 {
+    text-transform: uppercase;
+    padding: 10px ;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+h1 {
+    background-color: #bf2727;
+    color: #b7aa0d;
+}
+
+h2 {
+    background-color: #272fbf;
+    color: #0d62b7;
+    width: 300px;
+}
+
+h3 {
+    background-color: #1b7727;
+    color: #39bd2f;
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover {
+    color: #1bafaf;
+    border-bottom: #1bafaf 3px solid;
+
+}
+
+img {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 15px;
+
+}
+
+p {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: gray;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+.simpsons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list {
+    margin: 20px 0;
+    background-color: gray;
+    line-height: 2;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+span {
+    font-weight: 700;
+}
